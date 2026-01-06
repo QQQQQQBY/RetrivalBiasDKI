@@ -3,7 +3,7 @@
 We introduce a Dynamic Knowledge Instance (DKI) evaluation framework, modeling multi-updates of the same fact as a cue paired with a sequence of updated values, and assess models via endpoint probing of the earliest (initial) and latest (current) states. Across diverse LLMs, we observe that retrieval bias intensifies as updates increase, earliest-state accuracy stays high while latest-state accuracy drops substantially. Diagnostic analyses of attention, hidden-state similarity, and output logits further reveal that these signals become flatter and weakly discriminative on errors, providing little stable basis for identifying the latest update. Finally, intervention strategies inspired by cognitive heuristics yield only modest gains and do not eliminate the bias.
 
 <p align="center">
-  <img src="/Users/boyuqiao/Desktop/CodeDKI/DKI/DKIFig.png" 
+  <img src="DKI/DKIFig.png" 
        alt="DKI"
        width="80%" 
        style="border: 1px solid #eee; box-shadow: 2px 2px 5px rgba(0,0,0,0.1)">
